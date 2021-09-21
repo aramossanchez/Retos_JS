@@ -16,7 +16,7 @@ var numero = prompt("Introduce un número, y te diré si es par o no.");
 
 //Proceso
 
-numero = parseInt(numero);
+numero = parseFloat(numero);
 
 //Output
 

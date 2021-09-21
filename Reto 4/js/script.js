@@ -19,7 +19,7 @@ var resultado;
 
 //Proceso
 
-radio = parseInt(radio);
+radio = parseFloat(radio);
 resultado = PI * radio**2;
 
 //Output
