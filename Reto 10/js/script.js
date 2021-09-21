@@ -27,7 +27,7 @@ for (let i = 1; i <= cantidadVentas; i++) {
     precio = parseFloat(precio);
     precios.push(precio);
 };
-console.log(precios);
+
 precios.forEach(precio => {
     precioTotal += precio;
 });
