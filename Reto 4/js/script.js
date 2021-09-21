@@ -14,12 +14,12 @@ Version: 1.0
 //Input
 
 var radio = prompt("Introduce el radio de la circunferencia");
-radio = parseInt(radio);
 const PI = 3.1416;
 var resultado;
 
 //Proceso
 
+radio = parseInt(radio);
 resultado = PI * radio**2;
 
 //Output
