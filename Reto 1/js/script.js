@@ -18,6 +18,8 @@ var b = 5;
 
 //Proceso
 
+//Output
+
 if (a > b) {
     console.log(a + " es el número mayor.");    
 } else if (a < b){
@@ -25,5 +27,3 @@ if (a > b) {
 } else{
     console.log(a + " y " + b + " son iguales.");
 }
-
-//Output
