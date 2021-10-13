@@ -14,9 +14,9 @@ Version: 1.0
 
 //Input
 
-var cantidadVentas = prompt("Número de ventas.");
-var precios = [];
-var precioTotal = 0;
+let cantidadVentas = prompt("Número de ventas.");
+let precios = [];
+let precioTotal = 0;
 
 //Proceso
 

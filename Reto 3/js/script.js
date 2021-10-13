@@ -12,7 +12,7 @@ Version: 1.0
 
 //Input
 
-var nombre = prompt("Introduce tu nombre");
+let nombre = prompt("Introduce tu nombre");
 
 //Proceso
 

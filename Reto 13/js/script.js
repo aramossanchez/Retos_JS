@@ -20,10 +20,10 @@ Version: 1.0
 
 //Input
 
-var num1 = prompt("Introduce el 1º número.");
-var signo = prompt("Introduce un signo aritmético entres los siguientes:\n'+' --> Suma\n'-' --> Resta\n'*' --> Multiplicación\n'/' --> División\n'^' --> Potencia\n'%' --> Módulo");
-var num2 = prompt("Introduce el 2º número.");
-var resultado = 0;
+let num1 = prompt("Introduce el 1º número.");
+let signo = prompt("Introduce un signo aritmético entres los siguientes:\n'+' --> Suma\n'-' --> Resta\n'*' --> Multiplicación\n'/' --> División\n'^' --> Potencia\n'%' --> Módulo");
+let num2 = prompt("Introduce el 2º número.");
+let resultado = 0;
 
 //Proceso
 

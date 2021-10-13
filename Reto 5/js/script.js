@@ -12,7 +12,7 @@ Version: 1.0
 
 //Input
 
-var numero = prompt("Introduce un número, y te diré si es par o no.");
+let numero = prompt("Introduce un número, y te diré si es par o no.");
 
 //Proceso
 

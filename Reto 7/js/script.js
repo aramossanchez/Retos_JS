@@ -11,7 +11,7 @@ Version: 1.0
 
 //Input
 
-var contador = 1;
+let contador = 1;
 
 //Proceso
 

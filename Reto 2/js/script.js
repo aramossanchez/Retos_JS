@@ -13,7 +13,7 @@ Version: 1.0
 
 //Input
 
-var nombre = "Armando";
+let nombre = "Armando";
 
 //Proceso
 

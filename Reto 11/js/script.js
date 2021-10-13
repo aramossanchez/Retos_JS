@@ -12,7 +12,7 @@ Version: 1.0
 
 //Input
 
-var dia = prompt("Dime un día de la semana (todo en minúsculas y sin tildes)");
+let dia = prompt("Dime un día de la semana (todo en minúsculas y sin tildes)");
 
 //Proceso
 

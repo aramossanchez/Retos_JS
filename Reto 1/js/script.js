@@ -13,8 +13,8 @@ Version: 1.0
 
 //Input
 
-var a = 15;
-var b = 5;
+let a = 15;
+let b = 5;
 
 //Proceso
 

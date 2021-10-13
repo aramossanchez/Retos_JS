@@ -15,9 +15,10 @@ Version: 1.0
 
 //Input
 
-var contraseñaGuardada = "qwer";
-var intentos = 0;
-var contraseñaCorrecta = false;
+let contraseñaGuardada = "qwer";
+let intentos = 0;
+let contraseñaCorrecta = false;
+let mensajeMostrado = false;
 
 //Proceso
 
@@ -28,11 +29,12 @@ do {
     if (!contraseñaCorrecta) {
         var contraseñaUsuario = prompt("Introduce la contraseña");
     }
-    if(contraseñaGuardada === contraseñaUsuario){
+    if(contraseñaGuardada === contraseñaUsuario && mensajeMostrado == false){
         console.log("¡Enhorabuena!");
         contraseñaCorrecta = true;
+        mensajeMostrado = true;
     }
-    else{
+    if(contraseñaGuardada != contraseñaUsuario){
         console.log("Contraseña incorrecta");
     }
 } while (intentos < 3);

@@ -13,9 +13,9 @@ Version: 1.0
 
 //Input
 
-var precio = prompt("Introduce el precio del producto.");
+let precio = prompt("Introduce el precio del producto.");
 const IVA = 21;
-var precioTotal;
+let precioTotal;
 
 //Proceso
 

@@ -13,9 +13,9 @@ Version: 1.0
 
 //Input
 
-var radio = prompt("Introduce el radio de la circunferencia");
+let radio = prompt("Introduce el radio de la circunferencia");
 const PI = 3.1416;
-var resultado;
+let resultado;
 
 //Proceso
 
