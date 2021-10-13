@@ -24,17 +24,17 @@ let mensajeMostrado = false;
 
 //Output
 
-do {
+while (intentos < 3) {
     intentos++;
     if (!contraseñaCorrecta) {
         var contraseñaUsuario = prompt("Introduce la contraseña");
-    }
-    if(contraseñaGuardada === contraseñaUsuario && mensajeMostrado == false){
-        console.log("¡Enhorabuena!");
+    };
+    if(contraseñaGuardada === contraseñaUsuario){
         contraseñaCorrecta = true;
-        mensajeMostrado = true;
-    }
-    if(contraseñaGuardada != contraseñaUsuario){
-        console.log("Contraseña incorrecta");
-    }
-} while (intentos < 3);
+    };
+};
+if(contraseñaCorrecta){
+    alert("Contraseña correcta");
+}else{
+    alert("Contraseña incorrecta. Has agotado los 3 intentos");
+}
